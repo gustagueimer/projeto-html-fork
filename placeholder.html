@@ -1,0 +1,44 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/placeholder.css">
+    <title>Placeholder</title>
+    <script>
+        function openNav() {
+        document.getElementById("mySidebar").style.width = "200px";
+        }
+        function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </div>
+        <h1 id="tituloHeader">Site</h1>
+    </header>
+    <nav id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Início</a>
+        <a href="#">Produtos</a>
+        <a href="#">Informações nutricionais</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <main>
+        <section id="s1">
+            <h2 id="titulo">Título Principal</h2>
+            <h3 id="titulo">Aqui entra o primeiro conteudo que o cliente vai ver.</h3>
+            <p id="titulo">texto texto, texto texto texto</p>
+            <p id="video"><embed src="./css/placeholderVideo.mp4"/></p>
+        </section>
+        <p></p>
+    </main>
+    <footer>
+        <h2 id="titulo">Informações importantes</h2>
+        <p id="textoFooter">Copyright "x" 2024.</p>
+    </footer>
+</body>
+</html>
