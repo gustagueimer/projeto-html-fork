@@ -1,0 +1,39 @@
+<html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tag Aside</title>
+    <link rel="stylesheet" href="./css/stylecontatos.css">
+ </head>
+ <body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./Pagina principal.html"">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="./contatos.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="s1">
+            <form id="inputs" name="meu_form">
+                <h2>Entre em contato</h2>
+                <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+                <label for="nome">NAME</label><br></br>
+                <input type="text" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="Fone" />
+                <label for="Fone">FONE</label><br></br>
+                <input placeholder="@mail.com" name="email" />
+                <label for="email">EMAIL</label><br></br>
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+              </form>
+         </section>
+    </main>
+    <footer>
+        <h2>Footer</h2>
+        <p>This is the footer of the page.</p>
+    </footer>
+  </body>  
+</html>
