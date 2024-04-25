@@ -43,7 +43,7 @@
     main, aside {
         display: inline-block;
         vertical-align: top;
-        height: 55%;
+        height: 60%;
     }
     table {
         font-family: arial, sans-serif;
@@ -51,13 +51,16 @@
         width: 100%;
     }
     td, th {
-      border: 1px solid #2b2828;
-      color: #6b6b6bf6;
+      border: 1px solid #645555;
+      color: #464545f6;
       text-align: center;
       padding: 8px;
     }
+    th {
+        background-color: #5c8ba0;
+    }
     tr:nth-child(even) {
-      background-color: #2b2828;
+      background-color: #79b9d3;
       color: #6b6b6bf6;
     }
     #s1{
