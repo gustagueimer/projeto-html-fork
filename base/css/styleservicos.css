@@ -45,6 +45,21 @@
         vertical-align: top;
         height: 55%;
     }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    td, th {
+      border: 1px solid #2b2828;
+      color: #6b6b6bf6;
+      text-align: center;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #2b2828;
+      color: #6b6b6bf6;
+    }
     #s1{
         display: inline-block;
         vertical-align: top;
